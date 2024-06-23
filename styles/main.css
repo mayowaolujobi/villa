@@ -1,0 +1,449 @@
+html body {
+   font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   font-size: 100%;
+ }
+
+
+/* navbar style*/
+.navbar {
+   text-transform:uppercase;
+   
+   font-size: 1rem;
+   font-weight: 700;
+   background:#ab0622 !important; 
+   transition: all .9s ease-in-out;
+
+}
+
+.navbar-brand img{
+   height: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+   color:white;
+   padding-top:15px;
+   padding-bottom:10px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+   color: #F15025;
+}
+
+/*nav bar style ends*/
+
+
+
+/* rooms styles*/
+
+
+.rooms h3{
+   color: #ab0622 ;
+   margin:3rem auto 1rem auto; 
+   text-transform: uppercase;
+}
+
+.rooms .col-lg-4{
+   position: relative;
+   height: 250px;
+   padding: 5px;
+   margin-bottom: 15px;
+   overflow: hidden;
+} 
+
+
+.rooms img{
+   height:auto;
+}
+
+
+.overlay {
+   position: absolute;
+   width: 98%;
+   bottom: 0; 
+   left: 50%;
+   transform: translate(-50%, 0%);
+
+   background: rgba(0, 0, 0, 0.5);
+   transition: .5s ease;
+   opacity:1;
+
+   color: whitesmoke;
+   font-size: 1rem;
+   padding: 15px;
+   text-align: center;
+ }
+
+
+ .rooms img{
+   transition:transform .2s ease;
+ }
+
+
+.rooms img:hover{
+transform: scale(1.1);
+}
+/* rooms styles end*/
+
+
+
+
+
+
+
+/* About us starts */
+.aboutus h3 { 
+   color: #ab0622;
+   text-transform: uppercase;
+}
+
+.aboutus p{
+   font-size: 18px;
+   color:#B96072;
+}
+
+/* About us ends*/
+
+
+
+
+
+/* perks styles*/
+
+.perks h3 { 
+   color: #312044;
+   text-transform: uppercase;
+   margin: 2rem auto 2rem auto; 
+
+   animation-duration: 2s;
+   animation-delay: 3s;  
+}
+
+
+.perks p{
+   font-size: 16px;
+   padding:10px 10px;
+   text-align: center;
+   color:#312044;
+}
+/* perks styles end here*/
+
+
+.suite-background{
+   background: url("pics/backgroundsuite.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   height:350px;
+}
+
+
+
+
+
+
+/* services styles*/
+
+.services{
+   padding: 25px 75px;
+}
+
+.services h3 { 
+   color: #ab0622;
+   text-transform: uppercase;
+   margin: 2rem auto 2rem auto;  
+   
+   animation-duration: 2s;
+   animation-delay: 3s;  
+}
+
+
+
+.services p{
+   font-size: 12px;
+   padding: 0 30px;
+   color: grey;
+   text-align:center;
+}
+
+.services .col-sm-4{
+   padding:20px 5px !important;
+}
+
+
+
+/* contact styles start*/
+
+#contact{
+   color:whitesmoke;
+   font-size: 16px;
+}
+
+#contact a {
+   font-size: 15px;
+   color:white;
+   text-transform: none;
+   }
+
+
+.main-contact1{
+   background-color:#97283f;
+   padding-top:25px;
+  }
+
+
+.main-contact1 li{
+   padding-top:50px;
+   display:inline;
+   margin-right:50px;
+}
+
+
+.main-contact1 i{
+   font-size: 15px;
+   color:whitesmoke;
+   text-transform:none;
+   }
+
+
+.footer li{
+   list-style: none;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.footer a{
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.footer i{
+   font-size: 16px;
+   color:whitesmoke;
+   }
+
+   
+ .main-contact2{
+      background: url("pics/nav.png");
+      background-attachment: fixed;
+      color: black;
+      font-size: 13px; 
+   }
+   
+   #contact .footer{
+      background-color:  #ab0622;
+   
+    }
+
+   #contact button {
+   background:#312044 !important;
+   color:white!important;
+
+}
+
+/* contact styles start*/
+
+
+
+/*booking segment*/
+.booking{
+padding: 1rem;
+padding-top: 24px;
+background-color:#ff0e49;
+}
+
+.booking input{
+   margin-right:10px !important;
+}
+
+
+.booking select{
+   margin-right:10px !important;
+}
+
+.booking label{
+   font-size: 35px !important;
+   margin-right:10px !important;
+   margin-left: 20px !important;
+   
+}
+
+
+button {
+   background:#ab0622 !important;
+   color:white!important;
+
+}
+
+/*booking segment ends*/
+
+
+
+
+
+/*room page */
+.room-section h3 {
+   color: #ab0622;
+   text-transform: uppercase;
+   margin: 2rem auto 2rem auto;  
+   
+   animation-duration: 2s;
+   animation-delay: 3s; 
+} 
+
+
+
+
+.room-section li{
+   list-style:none;
+}
+
+
+.room-section .col-lg-12{
+   position: relative;
+   padding:0px;
+   margin-bottom:15px;
+}
+
+.room-section .overlay {
+   
+
+   position: absolute;
+   width: 100%;
+   bottom: 82%; 
+   left: 50%;
+   transform: translate(-50%, 0%);
+
+   background-color: #ff0e49;
+   transition: .5s ease;
+   opacity:1;
+
+   color: white;
+   font-size: 18px;
+   padding: 20px;
+   text-align: center;
+ } 
+
+
+ .room-section .col-md-6 li{
+   list-style:square;
+}
+
+.room-section .col-lg-2 .col-lg-10 {
+   padding: 0px;
+
+}
+
+.room-section hr {
+   height: 3px;
+
+}
+
+.badge {
+   background-color:#97283f;
+}
+
+.room-rate {
+   background-color:#97283f;
+   color:white;
+}
+
+/*room page ends */
+
+
+
+/* meeting page starts */
+
+.meeting h3{
+ color: #ab0622;
+   text-transform: uppercase;
+   margin: 2rem auto 2rem auto;  
+   
+   animation-duration: 2s;
+   animation-delay: 3s; 
+}
+
+
+.meeting  .overlay {
+   
+
+   position: absolute;
+   width: 100%;
+   bottom: 82%; 
+   left: 50%;
+   transform: translate(-50%, 0%);
+
+   background-color: #ff0e49;
+   transition: .5s ease;
+   opacity:1;
+
+   color: white;
+   font-size: 18px;
+   padding: 20px;
+   text-align: center;
+ } 
+
+
+
+ .style{
+    background-color: grey;
+    padding:5px 10px;
+}
+
+
+
+.contactus h3{
+ color: #ab0622;
+  text-transform: uppercase;
+  margin: 2rem auto 2rem auto;  
+   }
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
